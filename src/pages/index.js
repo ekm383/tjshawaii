@@ -28,7 +28,7 @@ const IndexPage = () => (
     />
     <HeaderIndex img={imgIndex}>
       <Section style={{ width: "100vw", alignItems: "center" }}>
-        <Banner subtitle="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. We're an upbeat sports bar with  billiard tables, darts, and jukebox, with an eclectic pub grub menu.">
+        <Banner subtitle="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. We're an upbeat sports bar with  billiard tables, darts, a jukebox, and eclectic pub grub menu.">
           <AniLink fade to="#menu">
             <Button>VIEW MENU</Button>
           </AniLink>
