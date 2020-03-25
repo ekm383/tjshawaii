@@ -15,7 +15,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Home"
-      description="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. Upbeat sports bar boasts pool, darts & a jukebox, plus eclectic pub grub.`,
+      description="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. Upbeat sports bar with billiard tables, darts, and jukebox, with an eclectic pub grub menu.`,
       author: `@restaurantmarketinghawaii"
       keywords={[
         `Honolulu Bar`,
@@ -28,7 +28,7 @@ const IndexPage = () => (
     />
     <HeaderIndex img={imgIndex}>
       <Section style={{ width: "100vw", alignItems: "center" }}>
-        <Banner subtitle="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. We're an upbeat sports bar boasti pool, darts & a jukebox, plus eclectic pub grub.">
+        <Banner subtitle="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. We're an upbeat sports bar with  billiard tables, darts, and jukebox, with an eclectic pub grub menu.">
           <AniLink fade to="#menu">
             <Button>VIEW MENU</Button>
           </AniLink>
