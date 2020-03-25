@@ -18,12 +18,12 @@ const IndexPage = () => (
       description="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. Upbeat sports bar boasts pool, darts & a jukebox, plus eclectic pub grub.`,
       author: `@restaurantmarketinghawaii"
       keywords={[
-        `Downtown Honolulu Restaurant`,
+        `Honolulu Bar`,
         `Hawaii Restaurant`,
-        `Hawaii Local Food`,
+        `Hawaii Bar Food`,
         `Honolulu Takeout`,
-        `Honolulu Poke`,
-        `Honolulu Sushi`,
+        `Honolulu Pub Food`,
+        `Honolulu Bar Food`,
       ]}
     />
     <HeaderIndex img={imgIndex}>
