@@ -214,6 +214,10 @@ const FormWrapper = styled.div`
     box-sizing: border-box;
     resize: vertical;
   }
+
+  @media (max-width: 768px) {
+    width: 95vw;
+  }
 `
 
 export default ContactForm
