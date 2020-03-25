@@ -26,10 +26,10 @@ const BannerWrapper = styled.div`
   .box {
     flex-basis: 80%;
     text-align: center;
-    padding: 13rem 0rem;
+    padding: 10rem 0rem;
   }
   img {
-    width: 50%;
+    width: 30%;
   }
   .title,
   .subtitle {
