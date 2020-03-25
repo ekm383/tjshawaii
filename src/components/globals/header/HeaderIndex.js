@@ -12,7 +12,9 @@ const IndexHeader = styled.header`
   flex-direction: column;
   justify-content: center;
   @media (max-width: 768px) {
-    background: url(${props => props.img}) center/contain fixed no-repeat;
+    background-image: url(${props => props.img});
+    background-position: center;
+    background-size: 100% auto;
   }
 `
 
