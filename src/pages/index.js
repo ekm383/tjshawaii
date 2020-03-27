@@ -30,7 +30,7 @@ const IndexPage = () => (
       <Section style={{ width: "100vw", alignItems: "center" }}>
         <Banner subtitle="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. We're an upbeat sports bar with  billiard tables, darts, a jukebox, and eclectic pub grub menu.">
           <AniLink>
-            <Button className="upserve-olo-opener">VIEW MENU</Button>
+            <Button className="upserve-olo-opener">ORDER TAKEOUT</Button>
           </AniLink>
         </Banner>
       </Section>
