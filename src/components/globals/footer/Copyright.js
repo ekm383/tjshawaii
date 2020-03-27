@@ -6,6 +6,11 @@ const Copyright = () => {
     <CopyrightWrapper className="copyright">
       &copy; Copyright 2020 | TJ's Sports Bar and Grill |
       <a href="https://www.restaurantmarketinghawaii.com"> RMH</a>
+      <script
+        src="https://app.upserve.com/platform/olo-widget.js?tjs-bar-and-grill-honolulu"
+        type="text/javascript"
+        id="upserve-olo-script"
+      ></script>
     </CopyrightWrapper>
   )
 }
