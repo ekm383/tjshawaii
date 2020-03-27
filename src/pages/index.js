@@ -1,5 +1,5 @@
 import React from "react"
-import Helmet from "react-helmet"
+import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import SEO from "../components/seo"
@@ -184,7 +184,11 @@ const IndexPage = () => (
       <ContactForm />
     </Section>
     <Helmet>
-      <script src={withPrefix("script.js")} type="text/javascript" />
+      <script
+        src="https://app.upserve.com/platform/olo-widget.js?tjs-bar-and-grill-honolulu"
+        type="text/javascript"
+        id="upserve-olo-script"
+      ></script>
     </Helmet>
   </Layout>
 )
