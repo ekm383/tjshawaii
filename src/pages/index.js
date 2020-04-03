@@ -8,9 +8,9 @@ import Banner from "../components/globals/banner/Banner"
 import Button from "../components/globals/button/Button"
 import Section from "../components/globals/section/Section"
 import ContactForm from "../components/ContactForm"
-import imgIndex from "../images/bg/tjs-sports-bar-hawaii.jpg"
 import Menu from "../components/Menu"
 import Intro from "../components/Intro"
+import Gallery from "../components/Gallery"
 
 const IndexPage = () => (
   <Layout>
@@ -27,7 +27,7 @@ const IndexPage = () => (
         `Honolulu Bar Food`,
       ]}
     />
-    <HeaderIndex img={imgIndex}>
+    <HeaderIndex>
       <Section style={{ width: "100vw", alignItems: "center" }}>
         <Banner subtitle="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. We're an upbeat sports bar with  billiard tables, darts, a jukebox, and eclectic pub grub menu.">
           <AniLink>
@@ -36,6 +36,7 @@ const IndexPage = () => (
         </Banner>
       </Section>
     </HeaderIndex>
+    <Gallery />
     <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
       <Intro
         heading="NEW LUNCH MENU"
