@@ -10,6 +10,7 @@ import ContactForm from "../components/ContactForm"
 import Menu from "../components/Menu"
 import Intro from "../components/Intro"
 import Gallery from "../components/Gallery"
+import imgMenu from "../images/regular-menu.jpg"
 
 export default class IndexPage extends Component {
   render() {
@@ -31,14 +32,21 @@ export default class IndexPage extends Component {
         <HeaderIndex>
           <Section style={{ width: "100vw", alignItems: "center" }}>
             <Banner subtitle="TJ's Sports Bar is located on the corner of Kapiolani and South Street in Honolulu, Hawaii. We're an upbeat sports bar with  billiard tables, darts, a jukebox, and eclectic pub grub menu.">
-              <a href="https://app.upserve.com/s/tjs-bar-and-grill-honolulu">
+              {/* <a href="https://app.upserve.com/s/tjs-bar-and-grill-honolulu">
                 <Button className="upserve-olo-opener">ORDER TAKEOUT</Button>
-              </a>
+              </a> */}
             </Banner>
           </Section>
         </HeaderIndex>
         <Gallery />
         <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
+          <Intro
+            heading="REGULAR MENU"
+            subheading="We are open for takeout or delivery. Please call (808) 545-2424. Free delivery is available: Puncbowl to Pensacola and Beretania to Ala Moana."
+          />
+          <img src={imgMenu} alt="menu" width="100%" />
+        </Section>
+        <Section>
           <Intro
             heading="NEW LUNCH MENU"
             subheading="We are open for takeout or delivery. Please call (808) 545-2424. Free delivery is available: Puncbowl to Pensacola and Beretania to Ala Moana."
