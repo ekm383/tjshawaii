@@ -24,14 +24,11 @@ class Footer extends Component {
       <FooterWrapper>
         <div className="box contact">
           <h4>Contact Information</h4>
-          <p>
-            600 Kapiolani Blvd,
-            <br />
-            Honolulu, HI 96813
-          </p>
-          <p className="phone">(808) 545-2424</p>
-          <p>Mon - Sat 2:00pm - 2:00am</p>
-          <p>Sun 7:00pm - 12:00am</p>
+          <p>600 Kapiolani Blvd, Honolulu, HI 96813</p>
+          <p className="phone">Phone: (808) 545-2424</p>
+          <p>Temporary COVID Hours of Operation:</p>
+          <p>Mon - Fri 10:00am - 10:00pm</p>
+          <p>Sat & Sun 2:00pm - 10:00pm</p>
           {this.state.icons.map(item => (
             <a
               href={item.path}
