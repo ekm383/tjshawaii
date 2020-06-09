@@ -140,8 +140,8 @@ export default class IndexPage extends Component {
         </Section>     
         <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
           
-          <img src={menu1} alt="menu" width="500" />
-          <img src={menu2} alt="menu" width="500" />
+          <img src={menu1} alt="menu" width="350px" />
+          <img src={menu2} alt="menu" width="350px"  />
         </Section>
         <Section id="information">
         <Intro heading="contact us" />
