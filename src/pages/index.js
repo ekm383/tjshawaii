@@ -40,6 +40,13 @@ export default class IndexPage extends Component {
           </Section>
         </HeaderIndex>
         <Gallery />
+        <Section style={{ marginTop: "4rem" }}>
+        <Intro heading="Lunch Menu" />
+        </Section>     
+        <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
+          <img src={menu1} alt="menu" width="350px" />
+          <img src={menu2} alt="menu" width="350px"  />
+        </Section>
         <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
           <Intro
             heading="REGULAR MENU"
@@ -134,14 +141,6 @@ export default class IndexPage extends Component {
           <Menu itemName="Tuna Melt" price="10.00" />
           <Menu itemName="Spam & Egg Sandwich" price="10.00" />
           <Menu itemName="Grilled Cheese Sandwich" price="6.00" />
-        </Section>
-        <Section>
-        <Intro heading="Lunch Menu" />
-        </Section>     
-        <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
-          
-          <img src={menu1} alt="menu" width="350px" />
-          <img src={menu2} alt="menu" width="350px"  />
         </Section>
         <Section id="information">
         <Intro heading="contact us" />
