@@ -183,7 +183,7 @@ export default class IndexPage extends Component {
             price="6.00"
           />
           <Menu itemName="Fried Saimin" price="10.00" />
-          <Menu itemName="Hot Saimin (miso)	" price="8.00" />
+          <Menu itemName="Hot Saimin (miso) " price="8.00" />
           <Menu itemName="Bowl of Rice" price="2.00" />
           <Menu itemName="Musubi" price="2.00" />
           <Menu itemName="Teri Spam Musubi" price="8.00" />
@@ -225,7 +225,7 @@ export default class IndexPage extends Component {
           <Menu itemName="Ahi Belly" price="12.00" />
           <Menu itemName="Ahi Shoyu Poke" price="12.00" />
           <Menu itemName="Spicy Tuna Poke" price="12.00" />
-          <Menu itemName="Ahi Sashimi	" price="12.00" />
+          <Menu itemName="Ahi Sashimi " price="12.00" />
           <Menu itemName="Blackened Ahi" price="12.00" />
           <Menu itemName="Oyster Shooters" price="12.00" />
           <Menu itemName="Opakapaka Tacos (2 per order)" price="12.00" />
