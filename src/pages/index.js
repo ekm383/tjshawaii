@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeaderIndex from "../components/globals/header/HeaderIndex"
 import Banner from "../components/globals/banner/Banner"
-// import Button from "../components/globals/button/Button"
 import Section from "../components/globals/section/Section"
 import ContactForm from "../components/ContactForm"
 import Menu from "../components/Menu"
@@ -38,11 +37,120 @@ export default class IndexPage extends Component {
           </Section>
         </HeaderIndex>
         <Gallery />
-        <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
+        <Section style={{ marginTop: "4rem" }}>
+          <Intro
+            heading="LUNCH MENU"
+            subheading="We are open for takeout or delivery. Please call (808) 545-2424. Free delivery is available: Puncbowl to Pensacola and Beretania to Ala Moana. All plates come with white rice and mac salad. No substitutions."
+          />
+        </Section>
+        <Section id="menu">
+          <Menu
+            itemName="Tofu Salad"
+            itemDescription="watercress, pulled salmon, red onions, tomato, tofu, with house dressing"
+            price="9.00"
+          />
+          <Menu
+            itemName="New York Steak"
+            itemDescription="Pulehu Style, Sauteed Mushrooms & Onions"
+            price="14"
+          />
+          <Menu
+            itemName="Chopped Steak"
+            itemDescription="Chuck Steak, Onion, Carrot, Celery, Bell Pepper, Sweety Soy Oyster Sauce"
+            price="12"
+          />
+          <Menu
+            itemName="Kalbi"
+            itemDescription="Bone-In, House Marinade"
+            price="12"
+          />
+          <Menu
+            itemName="Pulehu Shortribs"
+            itemDescription="Bone-In, Hawaiian Salt, Black Pepper, Pickled Onions"
+            price="12"
+          />
+          <Menu
+            itemName="Fried Pork Chops"
+            itemDescription="Lightly Battered & Deep Fried, Onion, Tomato, Vinegar Dipping Sauce"
+            price="12"
+          />
+          <Menu
+            itemName="Spicy Pork"
+            itemDescription="Smoked & Sauteed with Onions"
+            price="10"
+          />
+          <Menu
+            itemName="Fried Chicken"
+            itemDescription="Karaage Style with Ponzu"
+            price="10"
+          />
+          <Menu
+            itemName="Korean Chicken"
+            itemDescription="Dipped in Sweet Sesame Soy Chili"
+            price="10"
+          />
+          <Menu
+            itemName="Garlic Chicken"
+            itemDescription="Dipped in Sweet Soy Garlic Furikake"
+            price="10"
+          />
+          <Menu
+            itemName="Ahi Belly"
+            itemDescription="Lightly Battered, Deep Fried, Chili Pepper Water"
+            price="10"
+          />
+          <Menu
+            itemName="Chinese Style Seared Fish"
+            itemDescription="Basa, Sesame, Garlic, Ginger, Cilantro, Scallions, Soy Sauce"
+            price="12"
+          />
+          <Menu
+            itemName="Salt & Pepper Garlic Shrimp"
+            itemDescription="Peeled Tail On, Lightly Battered, Scallions, Siracha"
+            price="12"
+          />
+        </Section>
+        <Section style={{ marginTop: "1rem" }}>
+          <Intro heading="LUNCH ADDITIONS" subheading="No Rice or Mac Salad" />
+        </Section>
+        <Section id="menu">
+          <Menu
+            itemName="Kalbi Noodles"
+            itemDescription="Classic Fried Saimin, Spam, Fishcake, House Bone-In Kalbi Short Ribs"
+            price="12"
+          />
+          <Menu
+            itemName="Kalbi Noodles"
+            itemDescription="Classic Fried Saimin, Spam, Fishcake, House Bone-In Kalbi Short Ribs"
+            price="12"
+          />
+          <Menu
+            itemName="Kalbi Noodles"
+            itemDescription="Classic Fried Saimin, Spam, Fishcake, House Bone-In Kalbi Short Ribs"
+            price="12"
+          />
+          <Menu
+            itemName="Fish & Chips"
+            itemDescription="Beer Battered White Fish, Artichoke Tartar Sauce, Crinkle Cut Fries"
+            price="12"
+          />
+          <Menu
+            itemName="Filet-O-Fish Sandwich"
+            itemDescription="Beer Battered White Fish, Lettuce, Tomato, Red Onions, Artichoke Tartar Sauce, Crinkle Cut Fries"
+            price="10"
+          />
+          <Menu
+            itemName="Sizzling Agedashi Style Tofu"
+            itemDescription="Vegan & Gluten Free, Sauteed Onion, Zucchini, Red Bell Pepper, Mushroom, Garlic, Zesty Soy Agave Ginger Garlic Sauce, Served on a Sizzling Platter"
+            price="12"
+          />
+        </Section>
+        <Section style={{ marginTop: "2rem", marginBottom: "1rem" }}>
           <Intro
             heading="REGULAR MENU"
             subheading="We are open for takeout or delivery. Please call (808) 545-2424. Free delivery is available: Puncbowl to Pensacola and Beretania to Ala Moana."
           />
+
           <Menu itemName="Tofu Watercress Salad" price="12.00" />
           <Menu
             itemName="Caesar Salad"
@@ -133,147 +241,7 @@ export default class IndexPage extends Component {
           <Menu itemName="Spam & Egg Sandwich" price="10.00" />
           <Menu itemName="Grilled Cheese Sandwich" price="6.00" />
         </Section>
-        <Section>
-          <Intro
-            heading="NEW LUNCH MENU"
-            subheading="We are open for takeout or delivery. Please call (808) 545-2424. Free delivery is available: Puncbowl to Pensacola and Beretania to Ala Moana."
-          />
-        </Section>
-        <Section id="menu">
-          <Menu
-            itemName="Tofu Salad"
-            itemDescription="watercress, pulled salmon, red onions, tomato, tofu, with house dressing"
-            price="9.00"
-          />
-          <Menu
-            itemName="Fried Saimin"
-            itemDescription="yakisoba, spam, kamaboko"
-            price="9.00"
-          />
-          <Menu
-            itemName="Fried Rice"
-            itemDescription="bacon, onion, carrot, eggs. (Garlic $8, Kim Chee $9, Lup Chong $10, Shrimp $11)"
-            price="7.00"
-          />
-          <Menu
-            itemName="Ahi Poke Bowl"
-            itemDescription="fresh ahi, white rice, furikake, onion, limu, green onion, soy sauce, sesame seeds"
-            price="11.00"
-          />
-          <Menu
-            itemName="Spicy Ahi Bowl"
-            itemDescription="fresh ahi, white rice, furikake, spicy aioli, green onion, nori sheets"
-            price="11.00"
-          />
-          <Menu
-            itemName="Cheeseburger"
-            itemDescription="all beef patty, cheddar cheese, onion, lettuce, tomato, burger spread, bun, crinkle fries"
-            price="11.00"
-          />
-          <Menu
-            itemName="BLT"
-            itemDescription="white bread, bacon, lettuce, tomato, crinkle fries"
-            price="7.00"
-          />
-          <Menu
-            itemName="Spam Egg"
-            itemDescription="white bead, crinkle fries"
-            price="7.00"
-          />
-          <Menu
-            itemName="Tuna Melt"
-            itemDescription="tuna, mayo, cheddar cheese, crinkle fries"
-            price="7.00"
-          />
-          <Menu
-            itemName="Miso Ramen"
-            itemDescription="fried shrimp, fish cake, green onions"
-            price="9.00"
-          />
-        </Section>
-        <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
-          <Intro
-            heading="plate lunch menu"
-            subheading="Served with white rice and salad. We are open for takeout or delivery. Please call (808) 545-2424. Free delivery is available: Puncbowl to Pensacola and Beretania to Ala Moana."
-          />
-        </Section>
-        <Section id="menu">
-          <Menu
-            itemName="new york steak"
-            itemDescription="grilled, sauteed mushrooms and onions, choice of temperature"
-            price="11.00"
-          />
-          <Menu
-            itemName="chopped steak"
-            itemDescription="chuck steak, onion, carrot, celery, bell peppers, sweet soy, oyster sauce"
-            price="9.00"
-          />
-          <Menu
-            itemName="pork chops"
-            itemDescription="lightly battered, deep fried"
-            price="11.00"
-          />
-          <Menu
-            itemName="spicy pork"
-            itemDescription="smoked pork, sauteed onion, chili pepper"
-            price="11.00"
-          />
-          <Menu
-            itemName="kalbi"
-            itemDescription="bone-in, house marinades"
-            price="11.00"
-          />
-          <Menu
-            itemName="korean chicken"
-            itemDescription="lightly battered, sweet soy, sesame, chili"
-            price="9.00"
-          />
-          <Menu
-            itemName="garlic chicken"
-            itemDescription="lightly battered, sweet soy, garlic, furikake"
-            price="9.00"
-          />
-          <Menu
-            itemName="fried chicken"
-            itemDescription="chopped, boneless, skin-on"
-            price="9.00"
-          />
-          <Menu
-            itemName="wing zings"
-            itemDescription="mild spicy chicken wings, deep fried, ranch"
-            price="9.00"
-          />
-          <Menu
-            itemName="furikake ahi"
-            itemDescription="panko furikake crusted, wasabe aioli"
-            price="11.00"
-          />
-          <Menu
-            itemName="blackened ahi"
-            itemDescription="rolled on blackened seasoning, sashimi style, sweet soy dijon sauce"
-            price="11.00"
-          />
-          <Menu
-            itemName="ahi belly"
-            itemDescription="deep fried, lightly battered, ponzu"
-            price="11.00"
-          />
-          <Menu
-            itemName="steamed fish"
-            itemDescription="basa, sesame, ginger, garlic, cilantro, soy"
-            price="9.00"
-          />
-          <Menu
-            itemName="Salt Pepper Shrimp"
-            itemDescription="peeled, garlic, green onions"
-            price="11.00"
-          />
-          <Menu
-            itemName="calamari"
-            itemDescription="buttermilk, battered"
-            price="11.00"
-          />
-        </Section>
+
         <Section style={{ marginTop: "4rem", marginBottom: "1rem" }}>
           <Intro heading="contact us" />
         </Section>

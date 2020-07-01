@@ -13,17 +13,20 @@ const Menu = ({ itemName, itemDescription, price }) => {
 }
 
 const MenuWrapper = styled.div`
-  flex-basis: 40%;
+  flex-basis: 30%;
   margin-bottom: 1rem;
   h6 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   span {
     font-weight: 400;
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
   }
   p {
     line-height: 1.2rem;
+  }
+  @media (max-width: 768px) {
+    flex-basis: 45%;
   }
 `
 
