@@ -183,7 +183,7 @@ export default class IndexPage extends Component {
         <Section style={{ margin: "2rem auto" }}>
           <Intro
             heading="REGULAR MENU"
-            subheading="We are open for takeout or delivery. Please call (808) 545-2424. Free delivery is available: Puncbowl to Pensacola and Beretania to Ala Moana."
+            subheading="We are open for takeout or delivery. Please call (808) 545-2424. Free delivery is available: Puncbowl to Pensacola and Beretania to Ala Moana. Served after 2pm daily"
           />
 
           <Menu itemName="Tofu Watercress Salad" price="12.00" />
@@ -277,7 +277,7 @@ export default class IndexPage extends Component {
           <Menu itemName="Grilled Cheese Sandwich" price="6.00" />
         </Section>
         <Section style={{ margin: "2rem auto" }}>
-          <Intro heading="DINNER ADDITIONS" subheading="No Rice or Mac Salad" />
+          <Intro heading="DINNER ADDITIONS" subheading="No Rice or Mac Salad. Served after 2pm daily" />
         </Section>
         <Section id="menu">
           <Menu
