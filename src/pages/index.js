@@ -162,17 +162,17 @@ export default class IndexPage extends Component {
         <Menu
           itemName="Fries"
           itemDescription=""
-          price="3"
+          price="4"
         />
         <Menu
           itemName="Sweet Potato Fries"
           itemDescription=""
-          price="3"
+          price="5"
         />
         <Menu
           itemName="Tater Tots"
           itemDescription=""
-          price="3"
+          price="5"
         />
         <Menu
           itemName="Loaded Tater Tots"
